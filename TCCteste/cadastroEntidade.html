@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="Stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="Stylesheet" type="text/css" href="estilo.css">
+  <link rel="Stylesheet" href="animate.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+</head>
+
+<body>
+
+  <section id="cadastro">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+
+          <div class="login">
+              <div class="entidade">
+                
+                <h1 style="font-size: 50px">Cadastro de Entidade</h1>
+             
+                <div class="wow heartBeat">
+              
+              <div class="logo text-center">
+                <a href="../index.html">  
+                  <img src="img/Imagem1.png" width="160" height="150">
+                </a>
+              </div>
+              </div>
+            </div>
+
+           <div class="container-custom" style=" border: 10px solid #ffffff;  border-radius: 80px 0px 80px 0px; padding: 68px 28px; margin-top: 6px; background-color: #ffffff;">
+              <div class="wow slideInUp">
+              <form class="mt-5" id="form1" name="form1" method="POST" action="PHPentidade/entidadeCasdastro.php" enctype="multipart/form-data">
+
+                <div class="formulario">
+          
+                  <div class="form-row"> <!-- ROW = LINHA -->
+                    <div class=" form-group col-md-8">  <!-- COL = COLUNAS -->
+                      <label for="Nome">Nome da Entidade</label>
+                      <input type="text" name="login" class="form-control" id="login" placeholder="Insira o nome da Entidade: ">
+                    </div>
+
+                    <div class="form-group col-md-4">
+                      <label for="Telefone">Telefone</label>
+                      <input type="text" name="telefone" class="form-control" id="telefone" placeholder="Insira o Telefone: ">
+                    </div>
+                  </div>
+          
+          
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="Endereço">Endereço</label>
+                      <input type="text" name="endereco" class="form-control" id="endereco" placeholder="Endereço da Entidade:">
+                    </diV>
+                 
+                    
+                    <div class="form-group col-md-6">
+                      <label for="E-mail">E-mail</label>
+                      <input type="text" name="email" class="form-control" id="email" placeholder="E-mail da Entidade: ">
+                    </diV>
+                  </div>
+        
+                  <!-- <div class="form-row">
+                    <div class=" form-group col-md-6">
+                      <label for="Senha">Senha</label>
+                      <input type="password" name="senha" class="form-control" id="senha" placeholder="Insira Senha de sua preferência: ">
+                    </div>
+                
+                    
+                    <div class="form-group col-md-6">
+                      <label for="Repitsenha">Repita Senha</label>
+                      <input type="password" name="repitsenha" class="form-control" id="repitsenha" placeholder="Repita Senha: ">
+                    </div>
+                  </div> -->
+          
+                  <div class="form-row">
+                    <div class="form-group col-md-4" >
+                        <label for="UF">UF</label>
+
+                        <select class="custom-select form-control" name="uf" id="uf">
+                          <option value="AC">Acre</option>
+                          <option value="AL">Alagoas</option>
+                          <option value="AP">Amapá</option>
+                          <option value="AM">Amazonas</option>
+                          <option value="BA">Bahia</option>
+                          <option value="CE">Ceará</option>
+                          <option value="DF">Distrito Federal</option>
+                          <option value="ES">Espírito Santo</option>
+                          <option value="GO">Goiás</option>
+                          <option value="MA">Maranhão</option>
+                          <option value="MT">Mato Grosso</option>
+                          <option value="MS">Mato Grosso do Sul</option>
+                          <option value="MG">Minas Gerais</option>
+                          <option value="PA">Pará</option>
+                          <option value="PB">Paraíba</option>
+                          <option value="PR">Paraná</option>
+                          <option value="PE">Pernambuco</option>
+                          <option value="PI">Piauí</option>
+                          <option value="RJ">Rio de Janeiro</option>
+                          <option value="RN">Rio Grande do Norte</option>
+                          <option value="RS">Rio Grande do Sul</option>
+                          <option value="RO">Rondônia</option>
+                          <option value="RR">Roraima</option>
+                          <option value="SC">Santa Catarina</option>
+                          <option value="SP">São Paulo</option>
+                          <option value="SE">Sergipe</option>
+                          <option value="TO">Tocantins</option>
+                          <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+                  
+                      <div class="form-group col-md-8">
+                        <label for="Cidade">Cidade</label>
+                        <input type="text" name="cidade" class="form-control" id="cidade" placeholder="Insira sua Cidade: ">
+                      </div>
+                    </div>
+                  </div>
+          
+          
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="CNPJ">CNPJ</label>
+                      <input type="text" name="cnpj" class="form-control" id="cnpj" placeholder="Insira seu CNPJ: ">
+                    </div>
+                
+                    <div class="form-group col-md-6">
+                      <div class="custom-file">
+
+                        <input type="file" name="foto" class="custom-file-input" id="foto" placeholder="Carregar Foto..." required>
+                        <label class="custom-file-label foto" for="FOTO">Carregar Foto...</label>
+                        <!-- <div class="invalid-feedback">Exemplo de feedback inválido para input file</div> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <button type="submit" class="btn btn-primary mb-2">Confirmar Entidade</button>
+                    </div>
+                  </div>
+
+            </form>
+          </div>
+        </div>
+            </div>
+           </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- <form id="form1" name="form1" method="POST" action="Entidade.php"></form>  -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  </script>
+  <script src="Wowjs/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+
+</body>
+
+</html>

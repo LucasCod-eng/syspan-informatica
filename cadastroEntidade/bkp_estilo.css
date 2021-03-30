@@ -1,0 +1,264 @@
+body {
+    
+    background: url(img/pencil-2782840_1920) no-repeat scroll ;
+    background-size: cover;
+    background-repeat: repeat-x;
+    font-family: "Bauhaus 93", "Bahnschrift Light SemiCondensed";
+    width:  
+    height: 130px 1px solid; 
+    margin-top: 5px;  
+    width: auto;
+    height: auto;
+
+   }
+   
+   .login {
+    width: 85%;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0% 80px 0% 80px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    left: 52%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px; 
+
+   }
+   
+   .usuario {
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 112px;
+    float: right;
+    
+   }
+   
+   h1 {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+   }
+   
+   .login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+   }
+   
+   .login input {
+    width: 100%;
+    margin-bottom: 21px; 
+   }
+   
+   .login input [type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+   }
+   
+   .login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+   }
+   
+   .login input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ff4d4d;
+    transition: 0.2s;
+   }
+   
+   .login a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4b4b4b;
+    transition: 0.2s;
+   }
+   
+   .login a:hover {
+    transition: 0.2s;
+    color: #ff4d4d;
+   }
+
+  
+   .nome{
+    margin: 0%;   
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+   }
+
+   
+   .endereco{
+    margin: 10%;   
+    position: absolute;
+    top: 51%;
+    left: 30%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+
+   }
+
+   .email{
+    margin: 10%;   
+    position: absolute;
+    top: 66%;
+    left: 30%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+   }
+
+   .senha{
+    margin: 27%;   
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+   }
+
+  .reptsenha{
+    margin: 35%;   
+    position: absolute;
+    top: 53%;
+    left: 5%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+  }
+
+  .telefone{
+    margin: 0%;   
+    position: absolute;
+    top: 55%;
+    left: 86%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+  }
+
+  .uf{
+    margin: 10%;   
+    position: absolute;
+    top: 56%;
+    left: 75%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+
+  }
+
+  .cidade{
+    margin: 10%;   
+    position: absolute;
+    top: 66%;
+    left: 76%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+  }
+   
+.formulario{
+    float: right;
+}
+
+.select{
+  margin: 27%;   
+  position: absolute;
+  top: 50%;
+  left: 59%;
+  margin-right: -55%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 95%;
+  font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+}
+
+.foto{
+  margin: 39%;   
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  margin-right: -55%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 95%;
+  font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+}
+
+.entidade{
+  margin: 0%;   
+    position: absolute;
+    top: -6%;
+    left: 68%;
+    margin-right: -55%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 85%;
+    font-family: "Bauhaus 93", sans-serif;
+    font-size: 100px;
+}
+
+.logo{
+  margin: 0%;   
+  position: absolute;
+  top: 15%;
+  left: 68%;
+  margin-right: -55%;
+  transform: translate(-50%, -50%);
+  width: 55%;
+  height: 85%; 
+}
+
+
+.botao{
+  margin: 15%;   
+  position: absolute;
+  top: 60%;
+  right: 1%;
+  width: 47%;
+  height: 85%; 
+  
+}
+

@@ -1,0 +1,141 @@
+/* header{
+  width: 100%;
+ height: 20%;
+} */
+
+body {
+    
+    background-image: url(img/pencil-2782840_1920.jpg) no-repeat scroll ;
+    background-size: cover;
+    background-repeat: repeat-x;
+    font-family: "Bauhaus 93", "Bahnschrift Light SemiCondensed";
+    /* width:   */
+  
+    /* width: auto;
+    height: auto; */
+
+
+   }
+
+    body{
+    background-image: url("img/pencil-2782840_1920.jpg");
+    width: 100%;
+    height: 40%;
+  }
+
+   .input-group-append{
+     display: inline-block !important;
+   }
+   
+   .login {
+    /* width: 85%;
+    height: 100%; */
+   /* border: 1px solid rgb(255, 255, 255);
+    border-radius: 0% 80px 0% 80px; */
+    color: rgb(0, 0, 0); 
+    /* background-color: rgb(255, 255, 255); */
+    /* top: 100%;
+    left: 52%; */
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
+    /* box-sizing: border-box;
+    padding: 68px 28px;  */
+
+   }
+   
+   .usuario {
+    border-radius: 50%;
+    /* position: absolute; */
+    /* top: 200px;
+    left: 112px; */
+    float: right;
+    
+   }
+   
+   h1 {
+    /* margin: 0;
+    padding-top: 0;
+    padding-left: 0; */
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+   }
+   
+   .login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+   }
+   
+   .login input {
+    width: 100%;
+    margin-bottom: 21px; 
+   }
+   
+   .login input [type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+   }
+   
+   .login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+   }
+   
+   .login input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ff4d4d;
+    transition: 0.2s;
+   }
+   
+   .login a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4b4b4b;
+    transition: 0.2s;
+   }
+   
+   .login a:hover {
+    transition: 0.2s;
+    color: #ff4d4d;
+   }
+
+  
+   
+input, label, select, button{
+  font-family: "Bahnschrift Light SemiCondensed", sans-serif;
+}
+
+@media (min-width: 768px){
+  .foto{
+    margin-top: 32px;
+  }
+}
+
+.entidade{
+  /* margin: 0%;    */
+    /* position: absolute; */
+    /* top: -6%;
+    left: 68%;
+    margin-right: -55%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 80%;
+    height: 85%; */
+    font-family: "Bauhaus 93", sans-serif;
+    font-size: 100px;
+}
+
